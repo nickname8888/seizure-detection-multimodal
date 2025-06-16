@@ -59,4 +59,4 @@ for patient_id in sorted(os.listdir(SOURCE_DIR)):
     included += 1
     print(f"Included {patient_id} | Total size: {total_size_bytes / (1024**3):.2f} GB")
 
-print(f"\n✅ Copied {included} patients with seizures under {MAX_TOTAL_SIZE_GB} GB limit")
+print(f"\n Copied {included} patients with seizures under {MAX_TOTAL_SIZE_GB} GB limit")
